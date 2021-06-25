@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        laura_portfolio
+        Portfolio
       </h1>
       <div class="links">
         <a
@@ -28,7 +28,7 @@
 </template>
 
 <script>
-export default {}
+  export default {}
 </script>
 
 <style>

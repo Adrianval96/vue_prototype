@@ -1,20 +1,16 @@
 <template>
-  <div>
-    <AppHeader />
+  <div class = "mainPage">
+    <div class="mainHeader">
+      <AppHeader />
+    </div>
     <Nuxt />
+    <Card />
+    <ScrollToTop />
   </div>
 </template>
 
 <script>
-import AppHeader from '@/components/AppHeader.vue'
-import Modal from '@/components/Modal.vue'
 
-export default {
-  components: {
-    AppHeader,
-    Modal
-  }
-}
 </script>
 
 

@@ -1,17 +1,24 @@
 <template>
   <div>
-
-    <b-modal ref="my-modal" hide-footer title="Using Component Methods">
+    <b-modal ref="my-modal" hide-footer title= "Unidad didáctica 1">
       <div class="d-block text-center">
-        <h3>This is where information on the units go!</h3>
+        <h3>{{ this.text }}</h3>
       </div>
-      <b-button class="mt-2" variant="outline-warning" block @click="toggleModal">Toggle Me</b-button>
+      <b-button class="mt-2" variant="outline-warning" block @click="toggleModal">{{ this.button.text }}</b-button>
     </b-modal>
   </div>
 </template>
 
 <script>
   export default {
+    data() {
+      return {
+        text: "This is where the data goes",
+        button: {
+          text: "Tornar"
+        }
+      }
+    },
     methods: {
       showModal() {
         this.$refs['my-modal'].show()

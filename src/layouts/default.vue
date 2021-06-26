@@ -4,8 +4,9 @@
       <AppHeader />
     </div>
     <Nuxt />
-    <Card />
-    <ScrollToTop />
+    <div class = "div-card">
+      <Card />
+    </div>
   </div>
 </template>
 
@@ -60,5 +61,12 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.div-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <header>
-    <img alt="Vue logo" src="../assets/images/logo.jpeg" height="50">
-    <p>My Vue.js Application</p>
+    <img alt="header image" src="../assets/images/logo.jpeg" height="50">
+    <p> This is the page header </p>
   </header>
 </template>
 

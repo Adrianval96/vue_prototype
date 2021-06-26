@@ -2,7 +2,7 @@
   <div id = "card-container" @click="openModal()">
     <b-card
       title="Card Title"
-      img-src="https://picsum.photos/600/300/?image=25"
+      img-src= "../assets/images/logo.jpeg"
       img-alt="Image"
       img-top
       tag="article"
@@ -31,7 +31,20 @@ export default {
 </script>
 
 <style>
-#card-container {
-  display: center;
+.card-container {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-container:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
 </style>

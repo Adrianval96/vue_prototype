@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id = "card-container" @click="openModal()">
     <b-card
       title="Card Title"
       img-src="https://picsum.photos/600/300/?image=25"
@@ -12,16 +12,26 @@
       <b-card-text>
         Some quick example text to build on the card title and make up the bulk of the card's content.
       </b-card-text>
-
-      <b-button href="#" variant="primary">Go somewhere</b-button>
+      <Modal ref="modal" />
     </b-card>
   </div>
 </template>
 
 <script>
-
+export default {
+  methods: {
+    openModal() {
+      this.$refs['modal'].showModal();
+    },
+    closeModal() {
+      this.$refs['modal'].hideModal();
+    }
+  }
+}
 </script>
 
 <style>
-
+#card-container {
+  display: center;
+}
 </style>

@@ -4,9 +4,12 @@ on:
   push:
     branches:
       - main
+      - 'feature/**'
   pull_request:
     branches:
       - main
+    paths: 
+      - 'src/'
 
 jobs:
   ci:
@@ -45,7 +48,3 @@ jobs:
 
       - name: Install dependencies 👨🏻‍💻
         run: yarn
-
-
-      - name: Run tests 🧪
-        run: npx jest

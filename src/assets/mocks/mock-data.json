@@ -1,0 +1,132 @@
+{
+	"title": "EDUCACIÓ PLÀSTICA, VISUAL I AUDIOVISUAL",
+	"author": "LAURA ESPLUGUES ALCOVER",
+	"course": "3r ESO",
+	"sections": [
+		{
+			"title": "CONTINGUTS GENERALS",
+			"icon-url": "../images/flowers-0.png",
+			"cards": [
+				{
+					"image-url": "../images/content-1.png",
+					"description": "Programació",
+					"units": [
+						{
+							"unit_description": "Regles del joc",
+							"url": "../docs/info.pdf"
+						}
+					]
+				},
+        {
+          "image-url": "../images/content-2.png",
+          "description": "Altres documents",
+          "units": [
+
+          ]
+        }
+			]
+		},
+    {
+      "title": "PRIMERA AVALUACIÓ",
+      "icon-url": "../images/flowers-1",
+      "cards": [
+        {
+          "image-url": "../images/unit-01.png",
+          "description": "Unitat 1",
+          "units": [
+
+          ]
+        },
+        {
+          "image-url": "../images/unit-02.png",
+          "description": "Unitat 2",
+          "units": [
+
+          ]
+        },
+        {
+          "image-url": "../images/unit-03.png",
+          "description": "Unitat 3",
+          "units": [
+
+          ]
+        },
+        {
+          "image-url": "../images/unit-04.png",
+          "description": "Unitat 4",
+          "units": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SEGONA AVALUACIÓ",
+      "icon-url": "../images/flowers-2",
+      "cards": [
+        {
+          "image-url": "../images/unit-05.png",
+          "description": "Unitat 5",
+          "units": [
+
+          ]
+        },
+        {
+          "image-url": "../images/unit-06.png",
+          "description": "Unitat 6",
+          "units": [
+
+          ]
+        },
+        {
+          "image-url": "../images/unit-07.png",
+          "description": "Unitat 7",
+          "units": [
+
+          ]
+        },
+        {
+          "image-url": "../images/unit-08.png",
+          "description": "Unitat 8",
+          "units": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TERCERA AVALUACIÓ",
+      "icon-url": "../images/flowers-3",
+      "cards": [
+        {
+          "image-url": "../images/unit-9.png",
+          "description": "Unitat 9",
+          "units": [
+
+          ]
+        },
+        {
+          "image-url": "../images/unit-10.png",
+          "description": "Unitat 10",
+          "units": [
+
+          ]
+        },
+        {
+          "image-url": "../images/unit-12.png",
+          "description": "Unitat 12",
+          "units": [
+
+          ]
+        },
+        {
+          "image-url": "../images/unit-12.png",
+          "description": "Unitat 12",
+          "units": [
+
+          ]
+        }
+      ]
+    }
+	]
+}

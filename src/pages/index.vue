@@ -32,6 +32,13 @@
 </script>
 
 <style>
+
+@font-face {
+  font-family: "Swiss721";
+  src: local("Swiss721"),
+   url(../../public/fonts/Swiss721.ttf) format("truetype");
+}
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -43,15 +50,7 @@
 
 .title {
   font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+    Swiss721;
   display: block;
   font-weight: 300;
   font-size: 100px;

@@ -32,6 +32,15 @@
           title: "PRIMERA AVALUACIÓ"
         }
       }
+    },
+    created() {
+      // Get the data from JSON file
+      fetch('../assets/mocks/mock-data.json').then(response => {
+        this.data = response.data;
+      }, error =>{
+       console.log(error)
+      })
+      console.log(data);
     }
   }
 </script>

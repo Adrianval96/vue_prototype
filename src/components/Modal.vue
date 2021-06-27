@@ -36,5 +36,9 @@
 </script>
 
 <style>
-
+.mt-2 {
+  font-family: Arial,sans-serif;
+  background-color: #CE4B16;
+  color: #F7F8F9;
+}
 </style>

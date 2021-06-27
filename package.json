@@ -1,0 +1,18 @@
+{
+  "name": "laura_portfolio",
+  "version": "1.0.0",
+  "repository": "https://github.com/Adrianval96/laura_portfolio",
+  "author": "Adrian Valero <adrian.valero@nexum.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd src && yarn install",
+    "dev": "cd src && yarn dev",
+    "build": "cd src && yarn build",
+    "start": "cd src && yarn start",
+    "generate": "cd src &% yarn generate",
+    "test": "cd src & jest"
+  },
+  "dependencies": {
+    "sass-loader": "^10"
+  }
+}

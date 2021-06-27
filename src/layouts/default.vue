@@ -1,12 +1,6 @@
 <template>
   <div class = "mainPage">
-    <div class="mainHeader">
-      <AppHeader />
-    </div>
     <Nuxt />
-    <div class = "div-card">
-      <Card />
-    </div>
   </div>
 </template>
 
@@ -63,10 +57,4 @@ html {
   background-color: #35495e;
 }
 
-.div-card {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 50px;
-  margin-left: 50px;
-}
 </style>

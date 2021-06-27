@@ -12,8 +12,8 @@ header {
 }
 
 img {
-  height: 20%;
-  width: 20%;
+  height: 5%;
+  width: 5%;
   display: center;
 }
 

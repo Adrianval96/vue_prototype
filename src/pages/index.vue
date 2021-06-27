@@ -1,34 +1,39 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        Portfolio
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+  <body id="mainPage">
+    <div class = "header">
+      <AppHeader />
     </div>
-  </div>
+    <div class = "intro">
+      <!--HeroSummary /-->
+    </div>
+    <Heading>
+      {{ unit.title }}
+    </Heading>
+    <hr class = "hr" />
+    <div class = "card-container">
+      <Card />
+    </div>
+  </body>
 </template>
 
 <script>
-  export default {}
+  export default {
+    layout: 'main',
+
+    head() {
+      return {
+        title: "Defensa Laura"
+      }
+    },
+
+    data() {
+      return {
+        unit: {
+          title: "PRIMERA AVALUACIÓ"
+        }
+      }
+    }
+  }
 </script>
 
 <style>
@@ -49,8 +54,6 @@
 }
 
 .title {
-  font-family:
-    Swiss721;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -68,5 +71,31 @@
 
 .links {
   padding-top: 15px;
+}
+
+.card-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #5AA4CC;
+  color: white;
+  font-size: 30px;
+}
+
+hr {
+  margin-top: 2px;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px dashed gray;
+}
+
+* {
+  font-family: Swiss721;
 }
 </style>

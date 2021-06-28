@@ -63,5 +63,6 @@ export default {
   modules: ['bootstrap-vue/nuxt'],
   bootstrapVue: {
     icons: false
-  }
+  },
+  target: 'static' // default is 'server'
 }

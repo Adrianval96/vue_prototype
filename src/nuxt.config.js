@@ -1,5 +1,3 @@
-import serveStatic from 'serve-static'
-
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -59,9 +57,6 @@ export default {
   router: {
     base: '/index/',
     routeNameSplitter: '/'
-  },
-  generate: {
-    crawler: false
   },
   modules: ['bootstrap-vue/nuxt'],
   bootstrapVue: {

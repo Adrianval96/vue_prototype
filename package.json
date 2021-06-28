@@ -5,16 +5,15 @@
   "author": "Adrian Valero <adrian.valero@nexum.com>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "cd src && yarn install",
     "dev": "cd src && yarn dev",
-    "build": "cd src && yarn build",
+    "build": "cd src && yarn install",
     "start": "cd src && yarn start",
     "generate": "cd src &% yarn generate",
     "test": "cd src & jest"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
-    "redirect-ssl": "^3.0.0",
     "sass-loader": "^10"
-  }
+  },
+  "heroku-run-build-script": true
 }

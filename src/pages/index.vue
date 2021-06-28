@@ -7,7 +7,7 @@
       <!--HeroSummary /-->
     </div>
     <Heading>
-      {{ unit.title }}
+      {{ data.title }}
     </Heading>
     <hr class = "hr" />
     <div class = "card-container">
@@ -18,6 +18,10 @@
 
 <script>
   export default {
+    async asyncData({ $content }) {
+      const data = await $content('mock-data').fetch().catch(err => console.log(err));
+      return { data };
+    },
     layout: 'main',
 
     head() {
@@ -34,13 +38,6 @@
       }
     },
     created() {
-      // Get the data from JSON file
-      fetch('../assets/mocks/mock-data.json').then(response => {
-        this.data = response.data;
-      }, error =>{
-       console.log(error)
-      })
-      console.log(data);
     }
   }
 </script>

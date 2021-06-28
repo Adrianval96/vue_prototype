@@ -1,34 +1,46 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        Portfolio
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+  <body id="mainPage">
+    <div class = "header">
+      <AppHeader
+        v-bind:title = 'data.title'
+        v-bind:author = 'data.author'
+        v-bind:course = 'data.course'>
+      </AppHeader>
     </div>
-  </div>
+    <div class = "intro">
+      <!--HeroSummary /-->
+    </div>
+      <section class = 'lister'>
+        <Lister
+          v-for="section in data.sections"
+          v-bind:section='section'
+          v-bind:key='section.title'
+        ></Lister>
+        <Lister v-bind:section = 'data.sections[0]'/>
+      </section>
+  </body>
 </template>
 
 <script>
-  export default {}
+  export default {
+    async asyncData({ $content }) {
+      const data = await $content('mock-data').fetch().catch(err => console.log(err));
+      return { data };
+    },
+    layout: 'main',
+
+    head() {
+      return {
+      }
+    },
+
+    data() {
+      return {
+      }
+    },
+    created() {
+    }
+  }
 </script>
 
 <style>
@@ -49,8 +61,6 @@
 }
 
 .title {
-  font-family:
-    Swiss721;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -68,5 +78,22 @@
 
 .links {
   padding-top: 15px;
+}
+
+
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #5AA4CC;
+  color: white;
+  font-size: 30px;
+}
+
+.intro {
+  margin-top: 2em;
+}
+
+* {
+  font-family: Swiss721;
 }
 </style>

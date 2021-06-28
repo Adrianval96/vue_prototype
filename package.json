@@ -13,6 +13,7 @@
     "test": "cd src & jest"
   },
   "dependencies": {
+    "@nuxt/content": "^1.14.0",
     "sass-loader": "^10"
   }
 }

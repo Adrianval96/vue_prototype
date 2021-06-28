@@ -39,6 +39,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    '@nuxt/content'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -51,5 +52,10 @@ export default {
 
   server: {
     port: process.env.PORT || 3000 // default: 3000
+  },
+
+  router: {
+    base: '/index/',
+    routeNameSplitter: '/'
   }
 }

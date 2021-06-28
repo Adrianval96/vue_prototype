@@ -1028,6 +1028,11 @@ is-hexadecimal@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-hexadecimal/-/is-hexadecimal-1.0.4.tgz#cc35c97588da4bd49a8eedd6bc4082d44dcb23a7"
   integrity sha512-gyPJuv83bHMpocVYoqof5VDiZveEoGoFL8m3BXNb2VW8Xs+rz9kqO8LOQ5DH6EsuvilT1ApazU0pyl+ytbPtlw==
 
+is-https@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/is-https/-/is-https-4.0.0.tgz#9ee725a334fb517b988278d2674efc96e4f348ed"
+  integrity sha512-FeMLiqf8E5g6SdiVJsPcNZX8k4h2fBs1wp5Bb6uaNxn58ufK1axBqQZdmAQsqh0t9BuwFObybrdVJh6MKyPlyg==
+
 is-number@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
@@ -1523,6 +1528,13 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
+
+redirect-ssl@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/redirect-ssl/-/redirect-ssl-3.0.0.tgz#a7df617f286a4b170af696cd45e1ccbbdbb1cbe1"
+  integrity sha512-sG80DKm64eiE+mFKHq0zLcBoPw+PjEYqhu96FRpNZv8sNBWfDTkhSfvtxBtnSZfK3VsWJnjtzaIEfIEDv42bvA==
+  dependencies:
+    is-https "^4.0.0"
 
 rehype-raw@^5.0.0:
   version "5.1.0"

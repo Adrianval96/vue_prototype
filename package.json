@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "cd src && yarn dev",
-    "build": "cd src && yarn install",
+    "build": "cd src && yarn build",
     "start": "cd src && yarn start",
     "generate": "cd src &% yarn generate",
     "test": "cd src & jest"

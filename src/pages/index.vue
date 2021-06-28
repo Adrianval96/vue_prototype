@@ -6,13 +6,14 @@
     <div class = "intro">
       <!--HeroSummary /-->
     </div>
-    <Heading>
-      {{ data.title }}
-    </Heading>
-    <hr class = "hr" />
-    <div class = "card-container">
-      <Card />
-    </div>
+      <section class = 'lister'>
+        <Lister
+          v-for="section in data.sections"
+          v-bind:section='section'
+          v-bind:key='section.title'
+        ></Lister>
+        <Lister v-bind:section = 'data.sections[0]'/>
+      </section>
   </body>
 </template>
 
@@ -26,15 +27,11 @@
 
     head() {
       return {
-        title: "Defensa Laura"
       }
     },
 
     data() {
       return {
-        unit: {
-          title: "PRIMERA AVALUACIÓ"
-        }
       }
     },
     created() {
@@ -79,12 +76,6 @@
   padding-top: 15px;
 }
 
-.card-container {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 50px;
-  margin-left: 50px;
-}
 
 .header {
   padding: 30px;
@@ -92,13 +83,6 @@
   background: #5AA4CC;
   color: white;
   font-size: 30px;
-}
-
-hr {
-  margin-top: 2px;
-  margin-bottom: 2rem;
-  border: 0;
-  border-top: 1px dashed gray;
 }
 
 * {

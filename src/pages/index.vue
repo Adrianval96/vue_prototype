@@ -1,7 +1,11 @@
 <template>
   <body id="mainPage">
     <div class = "header">
-      <AppHeader />
+      <AppHeader
+        v-bind:title = 'data.title'
+        v-bind:author = 'data.author'
+        v-bind:course = 'data.course'>
+      </AppHeader>
     </div>
     <div class = "intro">
       <!--HeroSummary /-->
@@ -78,11 +82,15 @@
 
 
 .header {
-  padding: 30px;
+  padding: 15px;
   text-align: center;
   background: #5AA4CC;
   color: white;
   font-size: 30px;
+}
+
+.intro {
+  margin-top: 2em;
 }
 
 * {

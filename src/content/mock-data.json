@@ -10,18 +10,73 @@
 				{
 					"image-url": "../assets/images/content-1.png",
 					"description": "Programació",
-					"units": [
-						{
-							"unit_description": "Regles del joc",
-							"url": "../assets/docs/info.pdf"
-						}
-					]
-				},
+					"lines": [
+            {
+              "docs": [
+                {
+                  "url": "../assets/docs/units/programacio/programacio.pdf"
+                }
+              ]
+            }
+          ]
+        },
         {
           "image-url": "../assets/images/content-2.png",
           "description": "Altres documents",
-          "units": [
-
+          "lines": [
+            {
+              "title": "Activitats",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/altres/activitat_aprenentatge_example.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/altres/activitat_creacio_propia.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/altres/activitat_desenvolupament.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/altres/activitat_evaluacio.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/altres/activitats_coneixements.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Rutines",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/altres/rutina_pensament_1.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/altres/rutina_pensament_2.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/altres/rutina_pensament_3.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Rúbriques",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/altres/rubrica_avaluacio_docent.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/altres/rubrica_dossier.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Questionari",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/altres/questionari_docent.pdf"
+                }
+              ]
+            }
           ]
         }
 			]
@@ -33,29 +88,240 @@
         {
           "image-url": "../assets/images/unit-01.png",
           "description": "Unitat 1",
-          "units": [
-
-          ]
-        },
+          "title": "1: La desaparició d'Identitat.",
+          "lines": [
+            {
+              "title": "Regles del joc",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_1/organitzacio_curs.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_1/normes_aula.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Façana amunt, façana avall",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_1/activitat.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_1/rubrica.pdf"
+                }
+              ]
+            },
+            {
+              "title": "L'edifici de Correus de Castelló.",
+              "docs": [
+              ],
+              "video_url": ""
+            },
+            {
+              "title": "Tracem les matemàtiques",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_1/rutina_pensament.pdf"
+                }
+              ],
+              "video_url": ""
+            },
+            {
+              "title": "Les matemàtiques a l'edifici de Correus",
+              "docs": [
+                {
+                  "url": ""
+                }
+              ]
+            }
+					]
+				},
         {
           "image-url": "../assets/images/unit-02.png",
           "description": "Unitat 2",
-          "units": [
-
+          "title": "2: La peculiar xica del Grau de Castelló.",
+          "lines": [
+            {
+              "title": "Que passa a Fançara?",
+              "docs": [
+              ],
+              "video_url":""
+            },
+            {
+              "title": "Lectures des del gènere",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_2/rutina_de_pensament_2.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Passat continu",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_2/rutina_de_pensament_connecte.pdf"
+                }
+              ]
+            },
+            {
+              "title": "El punt de patida",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_2/inici_projecte.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Morats de coneixements",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_2/teoria.pdf"
+                }
+              ]
+            },
+            {
+              "title": "La meua façana",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_2/activitat_facana.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_2/guia_facana.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Quan els colors parlen",
+              "docs": [
+              ],
+              "video_url": ""
+            },
+            {
+              "title": "Parlem amb els colors",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_2/activitat_colors.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_2/rubrica_colors.pdf"
+                }
+              ]
+            }
           ]
         },
         {
           "image-url": "../assets/images/unit-03.png",
           "description": "Unitat 3",
-          "units": [
-
+          "title": "3: El cos.",
+          "lines": [
+            {
+              "title": "Fer trampa",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_3/teoria.pdf"
+                }
+              ]
+            },
+            {
+              "title": "I si tornem a les tres dimensions?",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_3/teoria.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Baix la llum",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_3/teoria.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_4/rutina_pensament_semafor.pdf"
+                }
+              ]
+            },
+            {
+              "title": "I si la meua proposta fora una escultura",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_3/activitat_proposta_escultura.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_3/rubrica_proposta_escultura.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Jo a l'espai",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_3/activitat_jo_espai.pdf"
+                }
+              ]
+            }
           ]
         },
         {
           "image-url": "../assets/images/unit-04.png",
           "description": "Unitat 4",
-          "units": [
-
+          "title": "4: L'enginyer i l'arquitecta.",
+          "lines": [
+            {
+              "title": "Projecta't",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_4/teoria.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Els cossos de la meua proposta",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_4/rutina_pensament_semafor.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Virtualitzem",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_4/activitat_virtualitzem.pdf"
+                }
+              ]
+            },
+            {
+              "title": "L'escena final",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_4/activitat_escena_final.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Mirem endins",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_4/guia_observacio_grup.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_4/guia_observacio_individual.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Reflexionem",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_4/questionari_docent.pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_4/rubrica_dossier.pdf"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -67,29 +333,85 @@
         {
           "image-url": "../assets/images/unit-05.png",
           "description": "Unitat 5",
-          "units": [
-
+          "title": "5: El cullerot.",
+          "lines": [
+            {
+              "title": "",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_5/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_5/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_5/*pdf"
+                }
+              ]
+            }
           ]
         },
         {
           "image-url": "../assets/images/unit-06.png",
           "description": "Unitat 6",
-          "units": [
-
+          "title": "6: Cervell d'espia.",
+          "lines": [
+            {
+              "title": "",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_6/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_6/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_6/*pdf"
+                }
+              ]
+            }
           ]
         },
         {
           "image-url": "../assets/images/unit-07.png",
           "description": "Unitat 7",
-          "units": [
-
+          "title": "7: Agafat a càmera.",
+          "lines": [
+            {
+              "title": "",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_7/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_7/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_7/*pdf"
+                }
+              ]
+            }
           ]
         },
         {
           "image-url": "../assets/images/unit-08.png",
           "description": "Unitat 8",
-          "units": [
-
+          "title": "8: Entre bastidors.",
+          "lines": [
+            {
+              "title": "",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_8/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_8/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_8/*pdf"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -101,29 +423,85 @@
         {
           "image-url": "../assets/images/unit-9.png",
           "description": "Unitat 9",
-          "units": [
-
+          "title": "9: Identitat, em reps?",
+          "lines": [
+            {
+              "title": "",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_9/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_9/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_9/*pdf"
+                }
+              ]
+            }
           ]
         },
         {
           "image-url": "../assets/images/unit-10.png",
           "description": "Unitat 10",
-          "units": [
-
+          "title": "10: Un dels nostres orígens.",
+          "lines": [
+            {
+              "title": "",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_10/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_10/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_10/*pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image-url": "../assets/images/unit-12.png",
+          "description": "Unitat 11",
+          "title": "11: Un mos a la natura.",
+          "lines": [
+            {
+              "title": "",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_11/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_11/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_11/*pdf"
+                }
+              ]
+            }
           ]
         },
         {
           "image-url": "../assets/images/unit-12.png",
           "description": "Unitat 12",
-          "units": [
-
-          ]
-        },
-        {
-          "image-url": "../assets/images/unit-12.png",
-          "description": "Unitat 12",
-          "units": [
-
+          "title": "12: L'aniversari.",
+          "lines": [
+            {
+              "title": "",
+              "docs": [
+                {
+                  "url": "../assets/docs/units/tema_12/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_12/*pdf"
+                },
+                {
+                  "url": "../assets/docs/units/tema_12/*pdf"
+                }
+              ]
+            }
           ]
         }
       ]

@@ -39,7 +39,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/axios'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -54,8 +55,15 @@ export default {
     port: process.env.PORT || 3000 // default: 3000
   },
 
+  axios: {
+    baseURL: `http://localhost:${process.env.PORT || 3000}/`,
+    browserBaseURL: "/"
+  },
+
   router: {
     base: '/index/',
     routeNameSplitter: '/'
-  }
+  },
+
+  target: 'static'
 }

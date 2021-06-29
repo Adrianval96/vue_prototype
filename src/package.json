@@ -21,7 +21,7 @@
     "node-sass": "^6.0.1",
     "nuxt": "^2.15.3",
     "vue-scrollto": "^2.20.0",
-    "webpack": "^5.0.0"
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.1.3",

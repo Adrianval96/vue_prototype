@@ -1,5 +1,4 @@
 export default {
-  mode: 'universal',
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -64,5 +63,7 @@ export default {
   router: {
     base: '/index/',
     routeNameSplitter: '/'
-  }
+  },
+
+  target: 'static'
 }

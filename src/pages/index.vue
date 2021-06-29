@@ -94,6 +94,6 @@
 }
 
 * {
-  font-family: Swiss721;
+  font-family: Swiss721-light;
 }
 </style>

@@ -9,6 +9,9 @@
 
 <script>
   export default {
+    props: {
+      img_src: String
+    }
 
   }
 </script>

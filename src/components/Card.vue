@@ -1,9 +1,9 @@
 <template>
-  <div id = "list-container">
+  <div id = "col">
     <b-card
-      title= "Card title"
-      img-src= "../assets/images/logo.jpeg"
-      img-alt="Image"
+      title:= 'card.title'
+      img-src:= 'card.image-url'
+      img-alt='Image'
       img-top
       tag="article"
       style="max-width: 20rem;"
@@ -11,26 +11,27 @@
       @click="openModal()"
     >
       <b-card-text>
-        Some quick example text to build on the card title and make up the bulk of the card's content.
+        <h3>{{ card.description }}</h3>
       </b-card-text>
-      <Modal ref="modal" />
+      <Modal
+        ref="modal"
+        v-bind:lines:= 'card.lines'
+      > </Modal>
     </b-card>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    card: Object
+  },
   methods: {
     openModal() {
       this.$refs['modal'].showModal();
     },
     closeModal() {
       this.$refs['modal'].hideModal();
-    }
-  },
-  data () {
-    return {
-      title: "Card title"
     }
   }
 }
@@ -60,5 +61,12 @@ export default {
   padding-right: 15px;
   padding-bottom: 50px;
   padding-left: 15px;
+}
+
+/* Float four columns side by side */
+.col {
+  float: left;
+  width: 33%;
+  padding: 0 50px;
 }
 </style>

@@ -1,14 +1,14 @@
 <template>
   <div>
     <Heading>
-      {{section.title}}
+      {{ section.title }}
     </Heading>
-    <hr class = "hr" />
-    <div class = "row">
+    <hr class="hr" />
+    <div class="row">
       <Card
         v-for="card in section.cards"
-        v-bind:card='card'
-        v-bind:key='card.description'
+        v-bind:card="card"
+        v-bind:key="card.description"
       ></Card>
     </div>
   </div>
@@ -17,12 +17,12 @@
 <script>
 export default {
   props: {
-    section: Object
-  }
-}
+    section: Object,
+  },
+};
 </script>
 
-<style>
+<style lang="scss">
 * {
   box-sizing: border-box;
 }
@@ -30,6 +30,14 @@ export default {
 /* Remove extra left and right margins, due to padding in columns */
 .row {
   margin: 0 10px;
+  justify-content: flex-start;
+}
+
+.row #col {
+  // width: 33%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  /* TO-DO: EN MOBILE, el width es 100% y la card no debería tener min-width */
 }
 
 /* Clear floats after the columns */

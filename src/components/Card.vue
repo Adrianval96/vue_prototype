@@ -1,10 +1,10 @@
 <template>
   <div id = "col">
     <b-card
-      title:= 'card.title'
-      img-src:= 'card.image-url'
+      :title= 'card.title'
+      v-if="card"
+      :img-src="require(`../assets/${card['image-url']}`)"
       img-alt='Image'
-      img-top
       tag="article"
       style="max-width: 20rem;"
       class="mb-2"
@@ -68,5 +68,6 @@ export default {
   float: left;
   width: 33%;
   padding: 0 50px;
+  flex: 1;
 }
 </style>

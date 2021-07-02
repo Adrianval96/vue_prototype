@@ -24,7 +24,7 @@ export default {
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 #v-div {
   position: relative;

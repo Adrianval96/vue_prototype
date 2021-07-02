@@ -1,5 +1,5 @@
 <template>
-  <body>
+  <div>
     <Heading>
       {{section.title}}
     </Heading>
@@ -11,7 +11,7 @@
         v-bind:key='card.description'
       ></Card>
     </div>
-  </body>
+  </div>
 </template>
 
 <script>
@@ -45,6 +45,7 @@ export default {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  height: 100%;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */

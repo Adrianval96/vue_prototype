@@ -1,6 +1,6 @@
 <template>
   <div class="heading">
-    <img src = "../assets/images/flowers-0.png" />
+    <img src:= 'img_src' />
     <p class="heading-title">
       <b><slot>{{ this.unit.title }}</slot></b>
     </p>

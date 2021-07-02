@@ -8,7 +8,7 @@
 			"icon-url": "../assets/images/flowers-0.png",
 			"cards": [
 				{
-					"image-url": "../assets/images/content-1.png",
+					"image-url": "images/content-1.png",
 					"description": "Programació",
 					"lines": [
             {
@@ -21,7 +21,7 @@
           ]
         },
         {
-          "image-url": "../assets/images/content-2.png",
+          "image-url": "images/content-2.png",
           "description": "Altres documents",
           "lines": [
             {
@@ -86,7 +86,7 @@
       "icon-url": "../assets/images/flowers-1",
       "cards": [
         {
-          "image-url": "../assets/images/unit-01.png",
+          "image-url": "images/unit-01.png",
           "description": "Unitat 1",
           "title": "1: La desaparició d'Identitat.",
           "lines": [
@@ -138,7 +138,7 @@
 					]
 				},
         {
-          "image-url": "../assets/images/unit-02.png",
+          "image-url": "images/unit-02.png",
           "description": "Unitat 2",
           "title": "2: La peculiar xica del Grau de Castelló.",
           "lines": [
@@ -211,7 +211,7 @@
           ]
         },
         {
-          "image-url": "../assets/images/unit-03.png",
+          "image-url": "images/unit-03.png",
           "description": "Unitat 3",
           "title": "3: El cos.",
           "lines": [
@@ -264,7 +264,7 @@
           ]
         },
         {
-          "image-url": "../assets/images/unit-04.png",
+          "image-url": "images/unit-04.png",
           "description": "Unitat 4",
           "title": "4: L'enginyer i l'arquitecta.",
           "lines": [
@@ -331,7 +331,7 @@
       "icon-url": "../assets/images/flowers-2",
       "cards": [
         {
-          "image-url": "../assets/images/unit-05.png",
+          "image-url": "images/unit-05.png",
           "description": "Unitat 5",
           "title": "5: El cullerot.",
           "lines": [
@@ -352,7 +352,7 @@
           ]
         },
         {
-          "image-url": "../assets/images/unit-06.png",
+          "image-url": "images/unit-06.png",
           "description": "Unitat 6",
           "title": "6: Cervell d'espia.",
           "lines": [
@@ -373,7 +373,7 @@
           ]
         },
         {
-          "image-url": "../assets/images/unit-07.png",
+          "image-url": "images/unit-07.png",
           "description": "Unitat 7",
           "title": "7: Agafat a càmera.",
           "lines": [
@@ -394,7 +394,7 @@
           ]
         },
         {
-          "image-url": "../assets/images/unit-08.png",
+          "image-url": "images/unit-08.png",
           "description": "Unitat 8",
           "title": "8: Entre bastidors.",
           "lines": [
@@ -421,7 +421,7 @@
       "icon-url": "../assets/images/flowers-3",
       "cards": [
         {
-          "image-url": "../assets/images/unit-9.png",
+          "image-url": "images/unit-09.png",
           "description": "Unitat 9",
           "title": "9: Identitat, em reps?",
           "lines": [
@@ -442,7 +442,7 @@
           ]
         },
         {
-          "image-url": "../assets/images/unit-10.png",
+          "image-url": "images/unit-10.png",
           "description": "Unitat 10",
           "title": "10: Un dels nostres orígens.",
           "lines": [
@@ -463,7 +463,7 @@
           ]
         },
         {
-          "image-url": "../assets/images/unit-12.png",
+          "image-url": "images/unit-12.png",
           "description": "Unitat 11",
           "title": "11: Un mos a la natura.",
           "lines": [
@@ -484,7 +484,7 @@
           ]
         },
         {
-          "image-url": "../assets/images/unit-12.png",
+          "image-url": "images/unit-12.png",
           "description": "Unitat 12",
           "title": "12: L'aniversari.",
           "lines": [

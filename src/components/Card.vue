@@ -1,9 +1,8 @@
 <template>
   <div id = "col">
     <b-card
-      :title= 'card.title'
       v-if="card"
-      :img-src="require(`../assets/${card['image-url']}`)"
+      :img-src="require(`../assets/${card['image_url']}`)"
       img-alt='Image'
       tag="article"
       style="max-width: 20rem;"
@@ -69,5 +68,10 @@ export default {
   width: 33%;
   padding: 0 50px;
   flex: 1;
+}
+
+.mb-2 {
+  width: 100%;
+  height: 100%;
 }
 </style>

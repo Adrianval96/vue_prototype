@@ -14,7 +14,8 @@
       </b-card-text>
       <Modal
         ref="modal"
-        v-bind:lines:= 'card.lines'
+        :lines= 'card.lines'
+        :title= 'card.title'
       > </Modal>
     </b-card>
   </div>

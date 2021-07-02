@@ -10,8 +10,10 @@
 				{
 					"image_url": "images/content-1.png",
 					"description": "Programació",
+          "title": "Programació",
 					"lines": [
             {
+              "title": "Programació",
               "docs": [
                 {
                   "url": "../assets/docs/units/programacio/programacio.pdf"
@@ -23,6 +25,7 @@
         {
           "image_url": "images/content-2.png",
           "description": "Altres documents",
+          "title": "Altres documents",
           "lines": [
             {
               "title": "Activitats",

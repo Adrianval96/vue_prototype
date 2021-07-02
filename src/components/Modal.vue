@@ -1,8 +1,32 @@
 <template>
   <div>
-    <b-modal ref="my-modal" hide-footer title= "Unidad didáctica 1">
+    <b-modal ref="my-modal" hide-footer
+      :title= 'title'
+    >
       <div class="d-block text-center">
-        <h3>{{ this.text }}</h3>
+        <ul>
+          <li
+            v-for="line in lines"
+            v-bind:line="line"
+            v-bind:key="line.title"
+          >
+            <p align='left'>
+              <b>{{line.title }}</b>:
+              <ul class = 'inner-ul'>
+                <li
+                  v-for="document in line.docs"
+                  v-bind:document="document"
+                  v-bind:key="document.url"
+                >
+                  <p>
+                    {{ docName= getDocName(document.url) }}
+                  </p>
+
+                </li>
+              </ul>
+            </p>
+          </li>
+        </ul>
       </div>
       <b-button class="mt-2" variant="outline-warning" block @click="toggleModal">{{ this.button.text }}</b-button>
     </b-modal>
@@ -13,7 +37,6 @@
   export default {
     data() {
       return {
-        text: "This is where the data goes",
         button: {
           text: "Tornar"
         }
@@ -30,7 +53,14 @@
         // We pass the ID of the button that we want to return focus to
         // when the modal has hidden
         this.$refs['my-modal'].toggle('#toggle-btn')
+      },
+      getDocName(doc) {
+        return doc.split('/').pop();
       }
+    },
+    props: {
+      lines: Array,
+      title: String
     }
   }
 </script>
@@ -40,5 +70,9 @@
   font-family: Arial,sans-serif;
   background-color: #CE4B16;
   color: #F7F8F9;
+}
+
+.inner-ul {
+  list-style: square;
 }
 </style>

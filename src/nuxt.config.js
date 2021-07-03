@@ -56,13 +56,18 @@ export default {
   },
 
   axios: {
-    baseURL: `http://localhost:${process.env.PORT || 3000}/`,
-    browserBaseURL: "/"
+    baseURL: `http://localhost:${process.env.PORT || 3000}/`
   },
 
   router: {
     base: '/index/',
-    routeNameSplitter: '/'
+    routes: [
+      {
+        name: 'index',
+        path: '/index',
+        component: 'pages/index.vue'
+      }
+    ]
   },
 
   target: 'static',

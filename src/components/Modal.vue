@@ -18,9 +18,9 @@
                   v-bind:document="document"
                   v-bind:key="document.url"
                 >
-                  <p>
+                  <a :href="document.url" target="_blank">
                     {{ docName= getDocName(document.url) }}
-                  </p>
+                  </a>
 
                 </li>
               </ul>

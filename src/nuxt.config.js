@@ -65,5 +65,48 @@ export default {
     routeNameSplitter: '/'
   },
 
-  target: 'static'
+  target: 'static',
+
+  build: {
+    extend(config, ctx) {
+      config.module.rules.push(
+        {
+          test: /\.(svg|jpg|gif|pdf)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: '[name].[ext]'
+              }
+            }
+          ]
+        });
+        config.module.rules.push({
+          test: /\.mp4$/,
+          use: [
+            {
+                loader: "file-loader",
+                options: {
+                    name: "[name].[ext]",
+                    outputPath: "video"
+                }
+            }
+          ]
+        });
+        config.module.rules.push({
+          test: /\.md$/,
+          use: [
+              {
+                  loader: "html-loader"
+              },
+              {
+                  loader: "markdown-loader",
+                  options: {
+                      /* your options here */
+                  }
+              }
+          ]
+        });
+    }
+  }
 }

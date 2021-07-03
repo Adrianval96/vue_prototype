@@ -13,8 +13,6 @@
     "test": "cd src & jest"
   },
   "dependencies": {
-    "@nuxt/content": "^1.14.0",
-    "sass-loader": "^10"
   },
   "engines": {
     "yarn": ">=1.20.0"

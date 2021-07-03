@@ -145,7 +145,7 @@
               "title": "Les matemàtiques a l'edifici de Correus",
               "docs": [
                 {
-                  "url": ""
+                  "url": "static/docs/units/tema_1/correus.pdf"
                 }
               ]
             }
@@ -474,7 +474,7 @@
               "title": "Altres maneres d'expressar",
               "docs": [
                 {
-                  "url": "static/docs/units/tema_6/rutina_pensament_pense_correcte_explore.pdf"
+                  "url": "static/docs/units/tema_6/rutina_pensament_pense_connecte_explore.pdf"
                 }
               ]
             }

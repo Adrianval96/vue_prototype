@@ -18,9 +18,9 @@
                   v-bind:document="document"
                   v-bind:key="document.url"
                 >
-                  <p>
+                  <a :href='getS3Url(document.url)' target="_blank">
                     {{ docName= getDocName(document.url) }}
-                  </p>
+                  </a>
 
                 </li>
               </ul>
@@ -56,6 +56,9 @@
       },
       getDocName(doc) {
         return doc.split('/').pop();
+      },
+      getS3Url(path) {
+        return 'http://lp-defensa.s3.amazonaws.com/' + path;
       }
     },
     props: {

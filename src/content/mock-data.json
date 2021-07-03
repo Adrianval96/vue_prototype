@@ -16,7 +16,7 @@
               "title": "Programació",
               "docs": [
                 {
-                  "url": "../assets/docs/units/programacio/programacio.pdf"
+                  "url": "../static/docs/units/programacio/programacio.pdf"
                 }
               ]
             }
@@ -31,19 +31,19 @@
               "title": "Activitats",
               "docs": [
                 {
-                  "url": "../assets/docs/units/altres/activitat_aprenentatge_example.pdf"
+                  "url": "../static/docs/units/altres/activitat_aprenentatge_example.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/altres/activitat_creacio_propia.pdf"
+                  "url": "../static/docs/units/altres/activitat_creacio_propia.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/altres/activitat_desenvolupament.pdf"
+                  "url": "../static/docs/units/altres/activitat_desenvolupament.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/altres/activitat_evaluacio.pdf"
+                  "url": "../static/docs/units/altres/activitat_evaluacio.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/altres/activitats_coneixements.pdf"
+                  "url": "../static/docs/units/altres/activitats_coneixements.pdf"
                 }
               ]
             },
@@ -51,13 +51,13 @@
               "title": "Rutines",
               "docs": [
                 {
-                  "url": "../assets/docs/units/altres/rutina_pensament_1.pdf"
+                  "url": "../static/docs/units/altres/rutina_pensament_1.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/altres/rutina_pensament_2.pdf"
+                  "url": "../static/docs/units/altres/rutina_pensament_2.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/altres/rutina_pensament_3.pdf"
+                  "url": "../static/docs/units/altres/rutina_pensament_3.pdf"
                 }
               ]
             },
@@ -65,10 +65,10 @@
               "title": "Rúbriques",
               "docs": [
                 {
-                  "url": "../assets/docs/units/altres/rubrica_avaluacio_docent.pdf"
+                  "url": "../static/docs/units/altres/rubrica_avaluacio_docent.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/altres/rubrica_dossier.pdf"
+                  "url": "../static/docs/units/altres/rubrica_dossier.pdf"
                 }
               ]
             },
@@ -76,10 +76,10 @@
               "title": "Questionaris",
               "docs": [
                 {
-                  "url": "../assets/docs/units/altres/questionari_docent.pdf"
+                  "url": "../static/docs/units/altres/questionari_docent.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/altres/questionari_activitats_reforc.pdf"
+                  "url": "../static/docs/units/altres/questionari_activitats_reforc.pdf"
                 }
               ]
             },
@@ -87,7 +87,7 @@
               "title": "Jocs",
               "docs": [
                 {
-                  "url": "../assets/docs/units/altres/jocs.pdf"
+                  "url": "../static/docs/units/altres/jocs.pdf"
                 }
               ]
             }
@@ -108,10 +108,10 @@
               "title": "Regles del joc",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_1/organitzacio_curs.pdf"
+                  "url": "../static/docs/units/tema_1/organitzacio_curs.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_1/normes_aula.pdf"
+                  "url": "../static/docs/units/tema_1/normes_aula.pdf"
                 }
               ]
             },
@@ -119,10 +119,10 @@
               "title": "Façana amunt, façana avall",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_1/activitat.pdf"
+                  "url": "../static/docs/units/tema_1/activitat.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_1/rubrica.pdf"
+                  "url": "../static/docs/units/tema_1/rubrica.pdf"
                 }
               ]
             },
@@ -136,7 +136,7 @@
               "title": "Tracem les matemàtiques",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_1/rutina_pensament.pdf"
+                  "url": "../static/docs/units/tema_1/rutina_pensament.pdf"
                 }
               ],
               "video_url": ""
@@ -160,7 +160,7 @@
               "title": "Que passa a Fançara?",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_2/MIAU.pdf"
+                  "url": "../static/docs/units/tema_2/MIAU.pdf"
                 }
               ],
               "video_url":""
@@ -169,7 +169,7 @@
               "title": "Lectures des del gènere",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_2/rutina_de_pensament_2.pdf"
+                  "url": "../static/docs/units/tema_2/rutina_de_pensament_2.pdf"
                 }
               ]
             },
@@ -177,7 +177,7 @@
               "title": "Passat continu",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_2/rutina_de_pensament_connecte.pdf"
+                  "url": "../static/docs/units/tema_2/rutina_de_pensament_connecte.pdf"
                 }
               ]
             },
@@ -185,7 +185,7 @@
               "title": "El punt de patida",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_2/inici_projecte.pdf"
+                  "url": "../static/docs/units/tema_2/inici_projecte.pdf"
                 }
               ]
             },
@@ -193,10 +193,10 @@
               "title": "Morats de coneixements",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_2/teoria.pdf"
+                  "url": "../static/docs/units/tema_2/teoria.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_2/inksphere.pdf"
+                  "url": "../static/docs/units/tema_2/inksphere.pdf"
                 }
               ]
             },
@@ -204,10 +204,10 @@
               "title": "La meua façana",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_2/activitat_facana.pdf"
+                  "url": "../static/docs/units/tema_2/activitat_facana.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_2/guia_facana.pdf"
+                  "url": "../static/docs/units/tema_2/guia_facana.pdf"
                 }
               ]
             },
@@ -221,10 +221,10 @@
               "title": "Parlem amb els colors",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_2/activitat_colors.pdf"
+                  "url": "../static/docs/units/tema_2/activitat_colors.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_2/rubrica_colors.pdf"
+                  "url": "../static/docs/units/tema_2/rubrica_colors.pdf"
                 }
               ]
             }
@@ -239,7 +239,7 @@
               "title": "Fer trampa",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_3/teoria.pdf"
+                  "url": "../static/docs/units/tema_3/teoria.pdf"
                 }
               ]
             },
@@ -247,7 +247,7 @@
               "title": "I si tornem a les tres dimensions?",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_3/teoria.pdf"
+                  "url": "../static/docs/units/tema_3/teoria.pdf"
                 }
               ]
             },
@@ -255,10 +255,10 @@
               "title": "Baix la llum",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_3/teoria.pdf"
+                  "url": "../static/docs/units/tema_3/teoria.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_4/rutina_pensament_semafor.pdf"
+                  "url": "../static/docs/units/tema_4/rutina_pensament_semafor.pdf"
                 }
               ]
             },
@@ -266,10 +266,10 @@
               "title": "I si la meua proposta fora una escultura",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_3/activitat_proposta_escultura.pdf"
+                  "url": "../static/docs/units/tema_3/activitat_proposta_escultura.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_3/rubrica_proposta_escultura.pdf"
+                  "url": "../static/docs/units/tema_3/rubrica_proposta_escultura.pdf"
                 }
               ]
             },
@@ -277,7 +277,7 @@
               "title": "La nit de les animetes",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_3/activitat_animetes.pdf"
+                  "url": "../static/docs/units/tema_3/activitat_animetes.pdf"
                 }
               ]
             },
@@ -285,7 +285,7 @@
               "title": "Jo a l'espai",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_3/activitat_jo_espai.pdf"
+                  "url": "../static/docs/units/tema_3/activitat_jo_espai.pdf"
                 }
               ]
             }
@@ -300,7 +300,7 @@
               "title": "Projecta't",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_4/teoria.pdf"
+                  "url": "../static/docs/units/tema_4/teoria.pdf"
                 }
               ]
             },
@@ -308,7 +308,7 @@
               "title": "Els cossos de la meua proposta",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_4/rutina_pensament_semafor.pdf"
+                  "url": "../static/docs/units/tema_4/rutina_pensament_semafor.pdf"
                 }
               ]
             },
@@ -316,7 +316,7 @@
               "title": "Virtualitzem",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_4/activitat_virtualitzem.pdf"
+                  "url": "../static/docs/units/tema_4/activitat_virtualitzem.pdf"
                 }
               ]
             },
@@ -324,7 +324,7 @@
               "title": "El muntatge final",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_4/recursos_GIMP.pdf"
+                  "url": "../static/docs/units/tema_4/recursos_GIMP.pdf"
                 }
               ]
             },
@@ -332,7 +332,7 @@
               "title": "L'escena final",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_4/activitat_escena_final.pdf"
+                  "url": "../static/docs/units/tema_4/activitat_escena_final.pdf"
                 }
               ]
             },
@@ -340,10 +340,10 @@
               "title": "Mirem endins",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_4/guia_observacio_grup.pdf"
+                  "url": "../static/docs/units/tema_4/guia_observacio_grup.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_4/guia_observacio_individual.pdf"
+                  "url": "../static/docs/units/tema_4/guia_observacio_individual.pdf"
                 }
               ]
             },
@@ -351,10 +351,10 @@
               "title": "Reflexionem",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_4/questionari_docent.pdf"
+                  "url": "../static/docs/units/tema_4/questionari_docent.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_4/rubrica_dossier.pdf"
+                  "url": "../static/docs/units/tema_4/rubrica_dossier.pdf"
                 }
               ]
             }
@@ -375,7 +375,7 @@
               "title": "Missió eMove",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_5/inici_projecte.pdf"
+                  "url": "../static/docs/units/tema_5/inici_projecte.pdf"
                 }
               ]
             },
@@ -383,7 +383,7 @@
               "title": "Calatrava i la natura",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_5/productes.pdf"
+                  "url": "../static/docs/units/tema_5/productes.pdf"
                 }
               ]
             },
@@ -391,7 +391,7 @@
               "title": "Els nostres objectes?",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_5/rutina_pensament.pdf"
+                  "url": "../static/docs/units/tema_5/rutina_pensament.pdf"
                 }
               ]
             },
@@ -399,10 +399,10 @@
               "title": "On estan els ritmes?",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_5/activitat_ritmes.pdf"
+                  "url": "../static/docs/units/tema_5/activitat_ritmes.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_5/guia_ritmes.pdf"
+                  "url": "../static/docs/units/tema_5/guia_ritmes.pdf"
                 }
               ]
             },
@@ -410,10 +410,10 @@
               "title": "Copia i apega",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_5/activitat_copia_i_apega.pdf"
+                  "url": "../static/docs/units/tema_5/activitat_copia_i_apega.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_5/rubrica.pdf"
+                  "url": "../static/docs/units/tema_5/rubrica.pdf"
                 }
               ]
             }
@@ -428,10 +428,10 @@
               "title": "Que hi ha a les imatges?",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_6/teoria_imatges.pdf"
+                  "url": "../static/docs/units/tema_6/teoria_imatges.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_6/obres_imatges.pdf"
+                  "url": "../static/docs/units/tema_6/obres_imatges.pdf"
                 }
               ]
             },
@@ -439,10 +439,10 @@
               "title": "La Rosalía",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_6/obres_rosalia.pdf"
+                  "url": "../static/docs/units/tema_6/obres_rosalia.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_6/rutina_pensament_semafor.pdf"
+                  "url": "../static/docs/units/tema_6/rutina_pensament_semafor.pdf"
                 }
               ]
             },
@@ -450,7 +450,7 @@
               "title": "Llegim davant, llegim darrere",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_6/activitat_llegim_davant_derrere.pdf"
+                  "url": "../static/docs/units/tema_6/activitat_llegim_davant_derrere.pdf"
                 }
               ]
             },
@@ -458,7 +458,7 @@
               "title": "La riuà",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_6/fotografies_francisco_perez.pdf"
+                  "url": "../static/docs/units/tema_6/fotografies_francisco_perez.pdf"
                 }
               ]
             },
@@ -466,7 +466,7 @@
               "title": "Les obres al llarg del temps",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_6/rutina_pensament_veig_pense_pregunte.pdf"
+                  "url": "../static/docs/units/tema_6/rutina_pensament_veig_pense_pregunte.pdf"
                 }
               ]
             },
@@ -474,7 +474,7 @@
               "title": "Altres maneres d'expressar",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_6/rutina_pensament_pense_correcte_explore.pdf"
+                  "url": "../static/docs/units/tema_6/rutina_pensament_pense_correcte_explore.pdf"
                 }
               ]
             }
@@ -489,7 +489,7 @@
               "title": "Les imatges de València",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_7/rutina_pensament_semafor.pdf"
+                  "url": "../static/docs/units/tema_7/rutina_pensament_semafor.pdf"
                 }
               ]
             },
@@ -508,10 +508,10 @@
               "title": "Mirem endins",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_8/guia_observacio_grup.pdf"
+                  "url": "../static/docs/units/tema_8/guia_observacio_grup.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_8/guia_observacio_individual.pdf"
+                  "url": "../static/docs/units/tema_8/guia_observacio_individual.pdf"
                 }
               ]
             },
@@ -519,10 +519,10 @@
               "title": "Reflexionem",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_8/questionari_docent.pdf"
+                  "url": "../static/docs/units/tema_8/questionari_docent.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_8/rubrica_dossier.pdf"
+                  "url": "../static/docs/units/tema_8/rubrica_dossier.pdf"
                 }
               ]
             }
@@ -543,13 +543,13 @@
               "title": "Reconstrucció",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_9/activitat_reconstruccio.pdf"
+                  "url": "../static/docs/units/tema_9/activitat_reconstruccio.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_9/activitat_reconstruccio_2.pdf"
+                  "url": "../static/docs/units/tema_9/activitat_reconstruccio_2.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_9/teoria.pdf"
+                  "url": "../static/docs/units/tema_9/teoria.pdf"
                 }
               ]
             },
@@ -561,7 +561,7 @@
               "title": "Els Destronaments",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_9/inici_projecte.pdf"
+                  "url": "../static/docs/units/tema_9/inici_projecte.pdf"
                 }
               ]
             },
@@ -569,7 +569,7 @@
               "title": "Toca",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_9/teoria.pdf"
+                  "url": "../static/docs/units/tema_9/teoria.pdf"
                 }
               ]
             },
@@ -577,10 +577,10 @@
               "title": "Un fum de possibilitats",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_9/activitat_fum_possibilitats.pdf"
+                  "url": "../static/docs/units/tema_9/activitat_fum_possibilitats.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_9/rubrica_fum_possibilitats.pdf"
+                  "url": "../static/docs/units/tema_9/rubrica_fum_possibilitats.pdf"
                 }
               ]
             },
@@ -588,7 +588,7 @@
               "title": "Alacant al segle XIX",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_9/rutina_pensament_veig_pense_pregunte.pdf"
+                  "url": "../static/docs/units/tema_9/rutina_pensament_veig_pense_pregunte.pdf"
                 }
               ]
             },
@@ -596,7 +596,7 @@
               "title": "La maleta de Sempere",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_9/rutina_pensament_pense_connecte_explore.pdf"
+                  "url": "../static/docs/units/tema_9/rutina_pensament_pense_connecte_explore.pdf"
                 }
               ]
             }
@@ -611,7 +611,7 @@
               "title": "Costats i angles",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_10/test_costats_i_angles.pdf"
+                  "url": "../static/docs/units/tema_10/test_costats_i_angles.pdf"
                 }
               ]
             },
@@ -623,13 +623,13 @@
               "title": "A construir!",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_10/activitat_a_construir.pdf"
+                  "url": "../static/docs/units/tema_10/activitat_a_construir.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_10/rubrica_a_construir.pdf"
+                  "url": "../static/docs/units/tema_10/rubrica_a_construir.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_10/teoria.pdf"
+                  "url": "../static/docs/units/tema_10/teoria.pdf"
                 }
               ]
             },
@@ -637,10 +637,10 @@
               "title": "Els caçadors, caçats",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_10/activitat_els_cacadors.pdf"
+                  "url": "../static/docs/units/tema_10/activitat_els_cacadors.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_10/guia_observacio_cacadors.pdf"
+                  "url": "../static/docs/units/tema_10/guia_observacio_cacadors.pdf"
                 }
               ]
             },
@@ -648,7 +648,7 @@
               "title": "Recalculem",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_10/activitat_recalculem.pdf"
+                  "url": "../static/docs/units/tema_10/activitat_recalculem.pdf"
                 }
               ]
             }
@@ -663,7 +663,7 @@
               "title": "Corba a Corba",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_11/rutina_pensament_semafor.pdf"
+                  "url": "../static/docs/units/tema_11/rutina_pensament_semafor.pdf"
                 }
               ]
             }
@@ -678,10 +678,10 @@
               "title": "Com a bons comerciants",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_12/activitat_comerciants.pdf"
+                  "url": "../static/docs/units/tema_12/activitat_comerciants.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_12/guia_observacio_comerciants.pdf"
+                  "url": "../static/docs/units/tema_12/guia_observacio_comerciants.pdf"
                 }
               ]
             },
@@ -689,7 +689,7 @@
               "title": "Tot a punt",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_12/full_informacio_recopilada.pdf"
+                  "url": "../static/docs/units/tema_12/full_informacio_recopilada.pdf"
                 }
               ]
             },
@@ -697,7 +697,7 @@
               "title": "La tertulieta",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_12/rutina_pensament_semafor.pdf"
+                  "url": "../static/docs/units/tema_12/rutina_pensament_semafor.pdf"
                 }
               ]
             },
@@ -705,10 +705,10 @@
               "title": "Acabaments",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_12/activitat_acabaments.pdf"
+                  "url": "../static/docs/units/tema_12/activitat_acabaments.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_12/rubrica_acabaments.pdf"
+                  "url": "../static/docs/units/tema_12/rubrica_acabaments.pdf"
                 }
               ]
             },
@@ -716,10 +716,10 @@
               "title": "Mirem endins",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_12/guia_observacio_individual.pdf"
+                  "url": "../static/docs/units/tema_12/guia_observacio_individual.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_12/guia_observacio_grup.pdf"
+                  "url": "../static/docs/units/tema_12/guia_observacio_grup.pdf"
                 }
               ]
             },
@@ -727,10 +727,10 @@
               "title": "Reflexionem",
               "docs": [
                 {
-                  "url": "../assets/docs/units/tema_12/questionari_docent.pdf"
+                  "url": "../static/docs/units/tema_12/questionari_docent.pdf"
                 },
                 {
-                  "url": "../assets/docs/units/tema_12/rubrica_dossier.pdf"
+                  "url": "../static/docs/units/tema_12/rubrica_dossier.pdf"
                 }
               ]
             }

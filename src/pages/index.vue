@@ -1,10 +1,10 @@
 <template>
-  <body id="mainPage">
+  <div id="mainPage">
     <div class = "header">
       <AppHeader
-        v-bind:title = 'data.title'
-        v-bind:author = 'data.author'
-        v-bind:course = 'data.course'>
+        :title = 'data.title'
+        :author = 'data.author'
+        :course = 'data.course'>
       </AppHeader>
     </div>
     <div class = "intro">
@@ -13,12 +13,12 @@
       <section class = 'lister'>
         <Lister
           v-for="section in data.sections"
-          v-bind:section='section'
-          v-bind:key='section.title'
+          :section='section'
+          :key='section.title'
         ></Lister>
-        <Lister v-bind:section = 'data.sections[0]'/>
+        <!-- <Lister :section = 'data.sections[0]'/> -->
       </section>
-  </body>
+  </div>
 </template>
 
 <script>

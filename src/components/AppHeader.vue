@@ -5,8 +5,8 @@
         <p class='course'> {{ course }} </p>
       </b-col>
       <b-col md='4' class='top-left'>
-        <p> {{ title }} </p>
-        <p> {{ author }} </p>
+        <p class = 'p-title'> {{ title }} </p>
+        <p class = 'author'> {{ author }} </p>
       </b-col>
       <b-col />
     </b-row>
@@ -53,12 +53,16 @@ img {
 }
 
 .author {
-  font-size: 40px;
+  font-size: 25px;
   margin-top: 1em;
 }
 
+.p-title {
+  font-size: 30px
+}
+
 .course {
-  font-size: 60px
+  font-size: 45px
 }
 
 @media screen and (max-width: 767px) {

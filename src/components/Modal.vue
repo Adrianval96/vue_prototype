@@ -3,9 +3,9 @@
     <b-modal ref="my-modal" hide-footer
       :title= 'title'
     >
-      <div class="d-block text-center">
-        <ul>
-          <li
+      <div class="body">
+        <ul class = 'ul'>
+          <li class = 'li'
             v-for="line in lines"
             v-bind:line="line"
             v-bind:key="line.title"
@@ -13,12 +13,13 @@
             <p align='left'>
               <b>{{line.title }}</b>:
               <ul class = 'inner-ul'>
-                <li
+                <li class = 'li'
                   v-for="document in line.docs"
                   v-bind:document="document"
                   v-bind:key="document.url"
                 >
-                  <a :href='getS3Url(document.url)' target="_blank">
+                  <a class ='link'
+                    :href='getS3Url(document.url)' target="_blank">
                     {{ docName= getDocName(document.url) }}
                   </a>
 
@@ -74,8 +75,13 @@
   background-color: #CE4B16;
   color: #F7F8F9;
 }
-
 .inner-ul {
   list-style: square;
+}
+
+.link {
+  word-wrap: break-word;
+  padding-right: 1%;
+  padding-left: 1%;
 }
 </style>

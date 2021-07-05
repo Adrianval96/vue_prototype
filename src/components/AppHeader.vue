@@ -1,15 +1,15 @@
 <template>
   <header class='header'>
     <b-row align-h='center' class='v-div'>
+      <b-col align-v='end' class='top-right'>
+        <p class='course'> {{ course }} </p>
+      </b-col>
       <b-col md='4' class='top-left'>
         <p> {{ title }} </p>
+        <p> {{ author }} </p>
       </b-col>
       <b-col />
-      <b-col align-v='end' class='top-right'>
-        <p> {{ course }} </p>
-      </b-col>
     </b-row>
-    <p align='left' class='author'> {{ author }} </p>
   </header>
 </template>
 
@@ -26,23 +26,9 @@ export default {
 
 <style lang="scss" scoped>
 
-#v-div {
-  position: relative;
-  padding-left:3em;
-}
-
-#v-div > * {
-  position: absolute;
-}
-
 .top-right {
-  border-left: 3px dashed grey;
+  border-right: 3px dashed grey;
   padding-top: 1em;
-}
-
-.vl {
-  border-left: 3px solid grey;
-  height: 500px;
 }
 
 v-div {
@@ -51,6 +37,7 @@ v-div {
 
 header {
   display:block;
+  font-family: Swiss721-light;
 }
 
 img {
@@ -68,6 +55,20 @@ img {
 .author {
   font-size: 40px;
   margin-top: 1em;
+}
+
+.course {
+  font-size: 60px
+}
+
+@media screen and (max-width: 767px) {
+  .course {
+    font-size: 45px;
+  }
+
+  .top-right {
+    border-right: 3px dashed grey;
+  }
 }
 
 </style>

@@ -55,9 +55,8 @@
 <style>
 
 @font-face {
-  font-family: "Swiss721";
-  src: local("Swiss721"),
-   url(../../public/fonts/Swiss721.ttf) format("truetype");
+  font-family: "Swiss721-light";
+  src: url('../../public/fonts/swiss-721-light.ttf')
 }
 
 .container {
@@ -91,10 +90,10 @@
 
 
 .header {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
-  background: #5AA4CC;
-  color: white;
+  background: #F7F8F9;
+  color: black;
   font-size: 30px;
 }
 
@@ -102,7 +101,7 @@
   margin-top: 2em;
 }
 
-* {
-  font-family: Swiss721-light;
+html * {
+  font-family: Swiss721-light ;
 }
 </style>

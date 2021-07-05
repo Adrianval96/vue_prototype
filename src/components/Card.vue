@@ -12,7 +12,7 @@
       <b-card-text>
         <h3>{{ card.description }}</h3>
       </b-card-text>
-      <Modal
+      <Modal class = 'modal'
         ref="modal"
         :lines= 'card.lines'
         :title= 'card.title'

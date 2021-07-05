@@ -1,6 +1,7 @@
 <template>
   <div class="heading">
-    <img src:= 'img_src' />
+    <img class='bp'
+      :src="require(`../assets/${img_src}`)" />
     <p class="heading-title">
       <b><slot>{{ this.unit.title }}</slot></b>
     </p>
@@ -21,6 +22,8 @@
   display: flex;
   justify-content: left;
   padding-top: 10px;
+  height: 60px;
+  margin-bottom: 3em;
 }
 
 .heading-title {

@@ -19,7 +19,7 @@
                   v-bind:key="document.url"
                 >
                   <a class ='link'
-                    :href='getS3Url(document.url)'>
+                    :href='getS3Url(document.url)' target="_blank">
                     {{ docName= getDocName(document.url) }}
                   </a>
 
